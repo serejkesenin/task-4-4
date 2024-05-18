@@ -7,6 +7,6 @@ public class MainEntity
     public string About  {get; set; }
     public List<string> MainTopicsList {get; set; }
     public string Profile {get; set; }
-
+ 
 
 }

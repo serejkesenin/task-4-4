@@ -8,5 +8,5 @@ public class BlogsEntity
     public string ImagePath {get; set; } //null
     public List<string> Tags {get; set; } //null
     public string Rate {get; set; }
-
+  
 }
