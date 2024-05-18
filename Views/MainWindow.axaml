@@ -17,8 +17,7 @@
             <Setter Property="FontWeight" Value="Medium"></Setter>
         </Style>
     </Window.Styles>
-
-    <Design.DataContext>
+      <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 

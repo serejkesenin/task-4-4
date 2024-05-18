@@ -15,7 +15,7 @@ public class MainWindowViewModel : ViewModelBase
             MainTopicsList = new List<string> {"Main topic 1","Main topic 2", "Main topic 3"},
             Profile = "RSS"
         };
-        
+          
         BlogsEntities = new List<BlogsEntity>()
         {
             new BlogsEntity() 

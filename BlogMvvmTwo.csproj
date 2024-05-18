@@ -22,3 +22,4 @@
     <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.10" />
   </ItemGroup>
 </Project>
+   
