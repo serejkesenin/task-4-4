@@ -21,4 +21,3 @@ sealed class Program
             .LogToTrace()
             .UseReactiveUI();
 }
- 
