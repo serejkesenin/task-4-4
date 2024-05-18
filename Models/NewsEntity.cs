@@ -1,6 +1,6 @@
 namespace BlogMvvmTwo.Models;
 using System;
-
+ 
 public class NewsEntity
 {
     public string Text  { get; set; }

@@ -5,3 +5,4 @@ namespace BlogMvvmTwo.ViewModels;
 public class ViewModelBase : ReactiveObject
 {
 }
+ 

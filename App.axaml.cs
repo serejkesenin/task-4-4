@@ -5,7 +5,7 @@ using BlogMvvmTwo.ViewModels;
 using BlogMvvmTwo.Views;
 
 namespace BlogMvvmTwo;
-
+ 
 public partial class App : Application
 {
     public override void Initialize()

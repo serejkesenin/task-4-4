@@ -5,7 +5,7 @@ using BlogMvvmTwo.Models;
 namespace BlogMvvmTwo.ViewModels;
 
 public class MainWindowViewModel : ViewModelBase
-{
+{ 
     public MainWindowViewModel()
     {
         MainMenuEntity = new() 

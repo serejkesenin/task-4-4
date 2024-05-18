@@ -1,6 +1,6 @@
 namespace BlogMvvmTwo.Models;
 using System.Collections.Generic;
-
+ 
 public class BlogsEntity
 {
     public string Article {get; set; }

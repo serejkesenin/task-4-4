@@ -3,7 +3,7 @@ using Avalonia.ReactiveUI;
 using System;
 
 namespace BlogMvvmTwo;
-
+ 
 sealed class Program
 {
     // Initialization code. Don't use any Avalonia, third-party APIs or any

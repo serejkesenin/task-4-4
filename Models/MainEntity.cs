@@ -1,4 +1,4 @@
-namespace BlogMvvmTwo.Models;
+ namespace BlogMvvmTwo.Models;
 using System.Collections.Generic;
 
 public class MainEntity
