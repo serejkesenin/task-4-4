@@ -1,0 +1,82 @@
+
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        d:DesignWidth="800" 
+        d:DesignHeight="750"
+        x:Class="GetStartedApp.MainWindow"
+        Title="News">
+    <Grid ShowGridLines="True"
+          RowDefinitions="40,25,*,40"
+          ColumnDefinitions="*,*,*">
+
+
+    <StackPanel Orientation = "Horizontal"
+                FlowDirection = "LeftToRight"
+                Grid.Row="0" 
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch">
+        <Button>Home</Button>
+        <Button>About</Button>
+        <Button>Blog's Main Topic 1</Button>
+        <Button>Blog's Main Topic 2</Button>
+        <Button>Blog's Main Topic 3</Button>
+        <Button>Associated blogs</Button>
+    </StackPanel>
+    <Button Grid.Row="0" 
+            Grid.Column="2"
+            Grid.ColumnSpan="1"
+            Background="#b3b3b3"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            x:Name="Button11">RSS</Button>
+    <TextBlock Grid.Row="1" 
+            Grid.Column="0"
+            VerticalAlignment="Center">Article 1</TextBlock> 
+        <StackPanel Orientation = "Vertical"
+                Grid.Row="2" 
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch">
+        <TextBlock TextWrapping="Wrap">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?<LineBreak />Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+        </TextBlock>
+        <Image Width="400" Height="200" VerticalAlignment="Top" Source="/Assets/photo_2024-03-10_19-13-33.jpg" />
+    </StackPanel>
+    <StackPanel Orientation = "Horizontal"
+                FlowDirection = "LeftToRight"
+                Grid.Row="3" 
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center">
+        <TextBlock>Tags:</TextBlock>
+        <Button>Tag 1</Button>
+        <Button>Tag 2</Button>
+        <Button>Tag 3</Button>
+        <Button>Tag 4</Button>
+        <TextBlock DockPanel.Dock="Right" TextAlignment="Right">Rate this article </TextBlock>
+        <TextBlock DockPanel.Dock="Right" TextAlignment="Right">5/5</TextBlock>
+    </StackPanel>
+<StackPanel Orientation = "Vertical"
+                Grid.Row="2"
+                Grid.Column="2"
+                Grid.RowSpan="2"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch">
+      <TextBlock TextWrapping="Wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque condimentum faucibus. Donec ac suscipit dolor. Etiam sit amet elit est. Morbi pretium placerat varius. Aliquam tempor ultricies vehicula. Cras et leo vestibulum, eleifend velit condimentum, blandit metus.</TextBlock>
+      <StackPanel Orientation = "Horizontal"
+                  FlowDirection = "RightToLeft"><Button>M͟o͟r͟e͟</Button></StackPanel>
+      <TextBlock DockPanel.Dock="Right" TextAlignment="Right">Yesterday</TextBlock>
+      <TextBlock TextWrapping="Wrap">Donec laoreet risus in erat scelerisque hendrerit sed a turpis. Donec justo felis, condimentum nec venenatis in, gravida sagittis diam. Sed eu urna quam. Donec gravida sem vitae sollicitudin dapibus. Phasellus aliquet ut magna nec egestas. Etiam consequat hendrerit odio id venenatis. Vestibulum semper varius dapibus.</TextBlock>
+      <StackPanel Orientation = "Horizontal"
+                  FlowDirection = "RightToLeft"><Button>M͟o͟r͟e͟</Button></StackPanel>
+      <TextBlock DockPanel.Dock="Right" TextAlignment="Right">1 week ago</TextBlock>
+    </StackPanel>
+    </Grid>
+</Window>
